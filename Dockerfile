@@ -72,10 +72,6 @@ EXPOSE 9000
 
 RUN chmod -R 777 /opt/thehive
 
-RUN mkdir /data
-
-RUN chmod -R 777 /data
-
 WORKDIR /opt/thehive
 
 ENTRYPOINT ["./entrypoint"]
